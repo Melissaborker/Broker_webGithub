@@ -141,11 +141,27 @@ font-family: 'Source Sans Pro', sans-serif;
   color: var(--maYellow);
 }
 
+@media (max-width:480px) {
+  .text-slanted {
+    margin-left: 16px;
+  
+}
+
+}
+
  .text-slanted_2 {
   margin-left: 60px;
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   color: var(--maWhite);
+}
+
+@media (max-width:480px) {
+  .text-slanted_2 {
+    margin-left: 18px;
+    font-size: 1.8rem;
+}
+
 }
 
 .text-slanted_text{
