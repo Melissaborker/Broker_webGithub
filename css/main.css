@@ -159,7 +159,7 @@ font-family: 'Source Sans Pro', sans-serif;
 @media (max-width:480px) {
   .text-slanted_2 {
     margin-left: 18px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 }
@@ -170,6 +170,13 @@ font-family: 'Source Sans Pro', sans-serif;
   color: var(--maWhite);
   font-size: 17px;
   text-transform: lowercase;
+}
+
+@media (max-width:480px) {
+  .text-slanted_text{
+    font-size:15px;
+}
+
 }
 
 .text-slanted_btn {
